@@ -29,7 +29,7 @@ public class BaseTest {
     public void beforeTest() {
         //OPEN BROWSER AND APPLICATION URL
         try {
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome());
+            driver = new RemoteWebDriver(new URL("http://192.168.1.8:4444/wd/hub"), DesiredCapabilities.chrome());
         } catch (MalformedURLException e) {
             e.printStackTrace();
             System.setProperty("webdriver.chrome.driver", getResourcesPath() + "/chromedriver.exe");
