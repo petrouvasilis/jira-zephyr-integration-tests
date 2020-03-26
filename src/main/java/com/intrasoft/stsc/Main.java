@@ -1,8 +1,8 @@
 package com.intrasoft.stsc;
 
-import com.beust.jcommander.internal.Lists;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
+import org.testng.collections.Lists;
 
 import java.io.File;
 import java.util.List;
