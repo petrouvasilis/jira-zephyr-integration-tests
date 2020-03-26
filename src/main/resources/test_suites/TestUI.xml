@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestUI" verbose="1">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="TestUI_001_VerifyHomePage">
+        <classes>
+            <class name="com.intrasoft.stsc.test_cases.TestUI_001_VerifyHomePage"></class>
+        </classes>
+    </test>
+    <test name="TestUI_002_VerifySearchResults">
+        <classes>
+            <class name="com.intrasoft.stsc.test_cases.TestUI_002_VerifySearchResults"></class>
+        </classes>
+    </test>
+</suite>
